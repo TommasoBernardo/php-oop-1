@@ -11,11 +11,11 @@ class Movie
     function __construct($_title, $_releaseyear, $_director, $_cast, $_duration, $_gender)
     {
         $this->title = $_title;
-        $this->title = $_releaseyear;
-        $this->title = $_director;
-        $this->title = $_cast;
-        $this->title = $_duration;
-        $this->title = $_gender;
+        $this->releaseyear = $_releaseyear;
+        $this->director = $_director;
+        $this->cast = $_cast;
+        $this->duration = $_duration;
+        $this->gender = $_gender;
     }
 
     public function getTitle()
