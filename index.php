@@ -1,3 +1,6 @@
+<?php
+include_once __DIR__ . "/db/database.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,9 +13,30 @@
 
 <body>
     <main>
-        <h1>
-            MOVIE
-        </h1>
+        <h1> Movies</h1>
+        <?php
+        foreach ($movies as $movie) {
+        ?> <ul>
+                <li>
+                    <?php echo $movie->getTitle() ?>
+                </li>
+                <li>
+                    <?php echo $movie->getReleaseYear() ?>
+                </li>
+                <li>
+                    <?php echo $movie->getDirector() ?>
+                </li>
+                <li>
+                    <?php echo $movie->getCast() ?>
+                </li>
+                <li>
+                    <?php echo $movie->getDuration() ?>
+                </li>
+                <li>
+                    <?php echo $movie->getGender() ?>
+                </li>
+            </ul>
+        <?php } ?>
     </main>
 </body>
 
