@@ -18,7 +18,7 @@ include_once __DIR__ . "/db/database.php";
         foreach ($movies as $movie) {
         ?> <ul>
                 <li>
-                    <?php echo $movie->getTitle() ?>
+                    <strong><?php echo $movie->getTitle() ?></strong>
                 </li>
                 <li>
                     <?php echo $movie->getReleaseYear() ?>
