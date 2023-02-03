@@ -10,10 +10,10 @@ $theHardWay = new Movie('Title: The Hard Way', 'anno: 2019', ' regista: Keoni Wa
 
 $coachCarter = new Movie('Title: Coach Carter', 'anno : 2005', 'regista: Thomas Carter', 'cast :Samuel Jackson, Ricky Gonzalez, Rob Brown , Channing Tatum', 'durata: 136 min', 'genere: dramatic sportive');
 
-$missionImpossible = new Movie('title: Mission Impossible 4', 'anno: 2011', 'regista: Brad Bird', 'cast: Tom Cruise, Paula Patton, Simon Pegg , Jeremy Renner', 'durata: 133 min', 'genere: espionage, action');
+$missionImpossible = new Movie('Title: Mission Impossible 4', 'anno: 2011', 'regista: Brad Bird', 'cast: Tom Cruise, Paula Patton, Simon Pegg , Jeremy Renner', 'durata: 133 min', 'genere: espionage, action');
 
-$laMummia = new Movie('title: La Mummia', 'anno: 2017', 'regista: Alex Kurtzman', 'cast: Tom Cruise, Sofia Boutella , Annabelle Wallis, Russell Crowe', 'durata: 107 min', 'genere: adventure, fantasy, action');
+$laMummia = new Movie('Title: La Mummia', 'anno: 2017', 'regista: Alex Kurtzman', 'cast: Tom Cruise, Sofia Boutella , Annabelle Wallis, Russell Crowe', 'durata: 107 min', 'genere: adventure, fantasy, action');
 
-$reArtu = new Movie(' title: King Arthur - il potere della spada', 'anno: 2017', 'regista: Guy Ritchie', 'cast: Charlie Hunnam, Àstrid Bergès-Frisbey, Djimon Hounsou, Jude Law, Aidan Gillen', 'durata: 126 min', 'genere: adventure, fantasy, action');
+$reArtu = new Movie(' Title: King Arthur - il potere della spada', 'anno: 2017', 'regista: Guy Ritchie', 'cast: Charlie Hunnam, Àstrid Bergès-Frisbey, Djimon Hounsou, Jude Law, Aidan Gillen', 'durata: 126 min', 'genere: adventure, fantasy, action');
 
 array_push($movies, $johnWick, $theHardWay, $coachCarter, $missionImpossible, $laMummia, $reArtu);
